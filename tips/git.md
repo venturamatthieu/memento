@@ -8,8 +8,5 @@ Command line, code, etc
 
 
 
-1) List of tips 
+1) Alias
 ----------------------------------
-
-- [git](tips/git.md)
-- [git](tips/git.md)
