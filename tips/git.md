@@ -83,3 +83,7 @@ Remove branch
 
     git branch -d MY_BRANCH_NAME
     git branch -D ANOTHER_BRANCH_NAME
+    
+Get modification from a specific commit
+
+    git cherry-pick COMMIT
