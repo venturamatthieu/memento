@@ -39,4 +39,31 @@ Show all settings
     alias.who=shortlog -s --
     alias.undo=reset --hard
     alias.new=!sh -c 'git log $1@{1}..$1@{0} $@'
+    
+3) Usefull command
+----------------------------------
+    git status 
+
+    git add <file>
+
+Show change 
+    git diff
+    
+Save code in memory
+    git stash save "last changes" 
+
+Get latest update
+    git fetch origin
+
+Get latest update and apply on given branch
+    git pull origin MY_BRANCH_NAME
+
+    git checkout -b MY_BRANCH_NAME
+    
+Apply all stashed code in current branch
+    git stash apply
+
+Manage change 
+    git commit -m "your descriptif here"
+    git push origin MY_BRANCH_NAME
 
