@@ -43,27 +43,43 @@ Show all settings
 3) Usefull command
 ----------------------------------
     git status 
-
     git add <file>
 
-Show change 
+Show change
+
     git diff
     
 Save code in memory
+
     git stash save "last changes" 
 
 Get latest update
+
     git fetch origin
 
 Get latest update and apply on given branch
+
     git pull origin MY_BRANCH_NAME
+    
+Create new branch 
 
     git checkout -b MY_BRANCH_NAME
     
+Change branch name 
+
+    git branch -m NEW_BRANCH_NAME  
+    
 Apply all stashed code in current branch
+
     git stash apply
 
 Manage change 
+
     git commit -m "your descriptif here"
     git push origin MY_BRANCH_NAME
+    
+    
+Remove branch
 
+    git branch -d MY_BRANCH_NAME
+    git branch -D ANOTHER_BRANCH_NAME
