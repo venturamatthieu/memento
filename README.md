@@ -26,6 +26,7 @@ Command line, code, etc
 - [doctrine](tips/doctrine.md)
 - [mysql](tips/mysql.md)
 - [mongodb](tips/mongodb.md)
+- [esxi](tips/esxi.md)
 
 
 
